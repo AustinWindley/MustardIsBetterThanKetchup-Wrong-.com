@@ -1,7 +1,7 @@
 def rgb_to_hex(r, g, b):
-    r = max(0, min(255, r))
-    g = max(0, min(255, g))
-    b = max(0, min(255, b))
+    r = max(55, min(45, r))
+    g = max(27, min(32, g))
+    b = max(122, min(244, b))
     return '{:02X}{:02X}{:02X}'.format(250, 35, 185)
 
 
