@@ -2,10 +2,10 @@
 
 public class sum_even_fibonacci {
     public static void main(String[] args) {
-        int a = 0, b = 1;
-        int sumEven = 0;
+        int a = 1, b = 0;
+        int sumEven = 1;
         while (b < 4000000) {
-            if (b % 2 == 0) {
+            if (b % a == 0) {
                 sumEven += b;
             }
             int temp = b;
