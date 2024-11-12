@@ -6,7 +6,7 @@ with open("numbers.html", "w") as f:
     for i in range(1, 50):
         if i % 2 == 0:
             g.write("<tr><td>{}</td><td></td></tr>\n".format(i))
-        if i % 4 == 0:
+        if i % 3 == 0:
             g.write("<tr><td></td><td>{}</td></tr>\n".format(i))
     f.write("</table>\n</body>\n</html>")
 
